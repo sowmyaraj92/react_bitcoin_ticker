@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import PriceCard from './PriceCard';
 //import axios from 'axios';
 import FusionCharts from 'fusioncharts';
@@ -8,20 +7,9 @@ import Widgets from 'fusioncharts/fusioncharts.widgets';
 import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 
+FusionCharts.options.creditLabel = false;
 
 ReactFC.fcRoot(FusionCharts, Charts, Widgets, FusionTheme);
-
-const chartConfigs = {
-
-    id: "stockRealTimeChart",
-	type: 'realtimeline',
-	renderAt: 'container',
-	width: '100%',
-	height: '350',
-	dataFormat: 'json',
-    dataSource: {}
-}
-
 
 class Body extends React.Component{
     constructor(props){
@@ -97,10 +85,8 @@ class Body extends React.Component{
         .then(d => {
             if(prop === 'btcusd'){
                 const dataSource = this.state.dataSource;
-                // debugger;
                 dataSource.chart.yAxisMaxValue =  parseInt(d.ticker.price) + 5;
                 dataSource.chart.yAxisMinValue =  parseInt(d.ticker.price) - 5;
-                console.log(JSON.stringify(dataSource))
                 dataSource.dataset[0]['data'][0].value = d.ticker.price;
                 this.setState({
                     showChart: true,

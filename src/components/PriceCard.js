@@ -1,4 +1,5 @@
 import React from 'react';
+
 const PriceCard = (props) => {
     const value = typeof parseInt(props.value) === 'number' && !isNaN(parseInt(props.value)) ? Math.round(parseInt(props.value)) : props.value;
     return (

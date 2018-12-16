@@ -4,9 +4,6 @@ import Body from './components/Body';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import '../src/style.css';
 
-
-
-
 class App extends Component {
   render() {
     return (
