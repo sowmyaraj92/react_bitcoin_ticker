@@ -7,8 +7,6 @@ import Widgets from 'fusioncharts/fusioncharts.widgets';
 import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 
-FusionCharts.options.creditLabel = false;
-
 ReactFC.fcRoot(FusionCharts, Charts, Widgets, FusionTheme);
 
 class Body extends React.Component{
