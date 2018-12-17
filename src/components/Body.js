@@ -12,7 +12,7 @@ ReactFC.fcRoot(FusionCharts, Charts, Widgets, FusionTheme);
 class Body extends React.Component{
     constructor(props){
         super(props);
-        this.BASE_URL = 'https://api.cryptonator.com/api/ticker/';
+        this.BASE_URL = 'https://cors.io/?https://api.cryptonator.com/api/ticker/';
         this.chartRef = null;
         this.state = {
             btcusd: '-',

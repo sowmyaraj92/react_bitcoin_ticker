@@ -14,7 +14,7 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-    branding :'Real-Time Cryptocurrency Dashboard'
+    branding: 'Real-Time Cryptocurrency Dashboard'
 
 };
 
