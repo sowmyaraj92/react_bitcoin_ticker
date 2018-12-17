@@ -131,8 +131,7 @@ I have used Bootstrap 4 here to build this responsive dashboard. With new compon
 
 
 - After installation, import Bootstrap in the app: 
-```import 'bootstrap/dist/css/bootstrap.min.css';
-```
+`import 'bootstrap/dist/css/bootstrap.min.css';`
 
 Here’s how the final dashboard will look like:
 
