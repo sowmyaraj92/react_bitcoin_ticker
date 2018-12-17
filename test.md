@@ -416,10 +416,10 @@ After you have implemented all the steps in this tutorial, your final dashboard 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_11EC37F9A4DE7CBA989EA1AD19CC0643E10F4DF7852A0DEAB2F7826D707020DD_1545038817860_Real-Time+Bitcoin+Ticker+Dashboard.png)
 
 
-You can find the entire source code for the Bitcoin Ticker here → \[Source Code\](https://github.com/sowmyaraj92/react_bitcoin_ticker)
+You can find the entire source code for the Bitcoin Ticker here → [Source Code](https://github.com/sowmyaraj92/react_bitcoin_ticker)
 
 
-> **You can download Fusion Charts Package for React stack from here \[Sign up for Fusion Charts\](https://www.fusioncharts.com/download/fusioncharts-suite-xt?framework=react)**
+> **You can download Fusion Charts Package for React stack from here [Sign up for Fusion Charts](https://www.fusioncharts.com/download/fusioncharts-suite-xt?framework=react)**
 
 
 With the increase in data collection and aggregation, businesses now feel the need for better data visualization to take more informed decisions. [FusionCharts](https://www.fusioncharts.com/) has been successful in visualizing data sources across different industry use-cases with 28,000 customers and love from over 750,000 developers world wide. Learn more about FusionCharts and it’s new products like Data-Stories, Dashboards, Export products and more. Happy Visualizing!
