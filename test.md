@@ -276,7 +276,7 @@ The function `startUpdatingData()` involves updating the chart with the dynamic 
 
 **Creating the** **Charts Section:**
 
-**REAL TIME CHART:** A real-time line chart is used to show the magnitude of a price in real-time. Data is updated automatically at fixed intervals by getting new data from the server, without any page refreshes. Data values are plotted on the chart as data points that are then connected using line segments. This chart can be simulated as a real-time bitcoin price monitor which updates after a fixed interval of time.
+**REAL-TIME CHART:** A real-time line chart is used to show the magnitude of a price in real-time. Data is updated automatically at fixed intervals by getting new data from the server, without any page refreshes. Data values are plotted on the chart as data points that are then connected using line segments. This chart can be simulated as a real-time bitcoin price monitor which updates after a fixed interval of time.
 
 
 > **To access the Real-Time Data Charts provided by FusionCharts, go** ******to** [**Real-Time Charts**](https://www.fusioncharts.com/dev/chart-guide/standard-charts/real-time-charts)**.**
