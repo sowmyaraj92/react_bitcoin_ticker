@@ -47,9 +47,9 @@ Open the project in your code editor, and now you are good to go with. Your proj
 
 ## **STEP 2:** **Including FusionCharts Package and its React Component**
 
-We will be using FusionCharts to render the charts in our dashboard. To learn more about FusionCharts, visit this [link](https://www.fusioncharts.com/)
+We will be using FusionCharts to render the charts in our dashboard. To learn more about FusionCharts, visit this [link](https://www.fusioncharts.com/).
 
-There are numerous ways to install FusionCharts, for general instructions you can check out [Fusion Charts Documentation Page](https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript#installation-1)
+There are numerous ways to install FusionCharts, for general instructions you can check out [Fusion Charts Documentation Page](https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript#installation-1).
 
 
 > **FusionCharts** **Direct Download**
@@ -127,12 +127,12 @@ Now, let’s get into the detailed dashboard structure.
 I have used Bootstrap 4 here to build this responsive dashboard. With new components, responsive structures and styles, it is a consistent framework that supports majority of all browsers and CSS compatibility fixes.
 
 
-- To include Bootstrap, run the command: 
-    npm install Bootstrap
+- To include Bootstrap, run the command: `npm install Bootstrap`
 
 
 - After installation, import Bootstrap in the app: 
-    import 'bootstrap/dist/css/bootstrap.min.css';
+```import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
 Here’s how the final dashboard will look like:
 
@@ -286,7 +286,7 @@ We now have the JSON data and the chart container in place, now let’s go ahead
 
 To create a real-time chart follow the steps given below:
 
-- Within the JSON data, the attributes and their corresponding values can be set in the format : **`"<attributeName>" : "<value>"`**
+- Within the JSON data, the attributes and their corresponding values can be set in the format : **`"<attributeName>" : "<value>"`**.
 - The chart type is specified using the **`type`** attribute. To render a real-time line chart, set **`realtimeline`**.
 -  The container object is set using the **`renderAt`** attribute.
 - The dimension of the chart is specified using **`width`** and **`height`** attributes.
@@ -477,7 +477,7 @@ After you have implemented all the steps in this tutorial, your final dashboard 
 You can find the entire source code for the Bitcoin Ticker here → [Source Code](https://github.com/sowmyaraj92/react_bitcoin_ticker).
 
 
-> **You can download Fusion Charts Package for React stack from here [Sign up for Fusion Charts](https://www.fusioncharts.com/download/fusioncharts-suite-xt?framework=react)**.
+> **You can download Fusion Charts Package for React stack from [here](https://www.fusioncharts.com/download/fusioncharts-suite-xt?framework=react)**.
 
 
 With the increase in data collection and aggregation, businesses now feel the need for better data visualization to take more informed decisions. [FusionCharts](https://www.fusioncharts.com/) has been successful in visualizing data sources across different industry use-cases with 28,000 customers and love from over 750,000 developers world wide. Learn more about FusionCharts and it’s new products like Data-Stories, Dashboards, Export products and more. Happy Visualizing!
