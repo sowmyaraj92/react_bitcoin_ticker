@@ -179,9 +179,9 @@ The KPI values are fetched by sending  GET request to Cryptonator API and procur
 
 The `componentDidMount()` method of the child components is invoked before that of parent components.
 
-The Base URL + conversion(btc-usd/eth-usd/ltc-usd) fetches the `Cryptonator API` and `d.ticker.price` returns the price of the cryptocurrency.
+The `Base URL + conversion(btc-usd/eth-usd/ltc-usd)` fetches the `Cryptonator API` and `d.ticker.price` returns the price of the cryptocurrency.
 
-For Bitcoin, the ticker is plotted against `**Local Time**` in the x-axis vs `**Price in USD**` in the Y-axis.
+For Bitcoin, the ticker is plotted against **`Local Time`** in the x-axis vs **`Price in USD`** in the Y-axis.
 To obtain the timestamp, the function `clientDateTime()` is used. This returns the current time and the graph gets updated at an interval of 2 seconds.
 
 The function `startUpdatingData()` involves updating the chart with the dynamic values. **feedData()** method provided by FusionCharts is used to feed data into the chart. Also, [**feedData**](https://www.fusioncharts.com/dev/api/fusioncharts/fusioncharts-methods#feedData) takes care of any delay that occurs during auto refresh or on page load. 
@@ -287,10 +287,10 @@ We now have the JSON data and the chart container in place, now let’s go ahead
 To create a real-time chart follow the steps given below:
 
 - Within the JSON data, the attributes and their corresponding values can be set in the format : **`"<attributeName>" : "<value>"`**
-- The chart type is specified using the **type** attribute. To render a real-time line chart, set **realtimeline**.
--  The container object is set using the **renderAt** attribute.
-- The dimension of the chart is specified using **width** and **height** attributes.
-- The type of data (JSON/XML) you want to pass to the chart object, is defined using the **dataFormat** attribute.
+- The chart type is specified using the `**type**` attribute. To render a real-time line chart, set **`realtimeline`**.
+-  The container object is set using the **`renderAt`** attribute.
+- The dimension of the chart is specified using **`width`** and **`height`** attributes.
+- The type of data `(JSON/XML)` you want to pass to the chart object, is defined using the **`dataFormat`** attribute.
 ```
 
      this.chartConfigs = {
