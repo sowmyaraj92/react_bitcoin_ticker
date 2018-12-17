@@ -334,6 +334,64 @@ Take a look at the chart to understand the parameters of the dataSource better.
 
 We will now create a file called `style.css` which will contain all the styles and CSS techniques for our dashboard. Here’s how it looks like:
 
+```body {
+    background-color: #f7f7f7 !important; 
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+   background-color: #3949ab !important;
+   box-shadow :0 8px 14px 0 rgba(123, 120, 120, 0.22);
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+.custom-card{
+    border: 0 ;
+    box-shadow: 0px 2px 4px #bdbdbd73;
+}
+.card-body img {
+    width: 25px;
+    opacity :0.2;   
+}
+.card-deck > .card:nth-child(2) .card-body > img{
+    width:20px;
+}
+@media (min-width:576px){
+    .custom-card-deck .card:last-child{
+        margin-right: 15px !important;
+    }
+}
+@media (max-width:768px){
+    .navbar-brand{
+        width:100%;
+        text-align: center;
+        font-size: 1.1rem;
+        white-space: normal;
+    }
+}
+@media (max-width:575px){
+    .mt-xs-4 {
+        margin-top: 2rem !important;
+    }
+    .mb-xs-4 {
+        margin-bottom: 2rem !important;
+    }
+}
+.text-primary {
+    color: #3949ab!important;
+}
+ img{
+    opacity:0.6;
+ }
+```
+
 
 ## **STEP 5: Rendering the Chart**
 
