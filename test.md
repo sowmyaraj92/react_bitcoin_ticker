@@ -286,12 +286,12 @@ We now have the JSON data and the chart container in place, now let’s go ahead
 
 To create a real-time chart follow the steps given below:
 
-- Within the JSON data, the attributes and their corresponding values can be set in the format : **"<attributeName>" : "<value>"**
+- Within the JSON data, the attributes and their corresponding values can be set in the format : **`"<attributeName>" : "<value>"`**
 - The chart type is specified using the **type** attribute. To render a real-time line chart, set **realtimeline**.
 -  The container object is set using the **renderAt** attribute.
 - The dimension of the chart is specified using **width** and **height** attributes.
 - The type of data (JSON/XML) you want to pass to the chart object, is defined using the **dataFormat** attribute.
-
+```
 
      this.chartConfigs = {
                 type: 'realtimeline',
@@ -300,9 +300,10 @@ To create a real-time chart follow the steps given below:
                 height: '350',
                 dataFormat: 'json'
             };
+```
 
 The data source required to render the real-time chart is given below:
-
+```
 
     dataSource : {
                     "chart": {
@@ -320,6 +321,8 @@ The data source required to render the real-time chart is given below:
                         "theme": "fusion"    
                              },
                   }
+
+```
 
 We can customize the functionality of a real-time chart in great detail. Take for instance, we can define refresh interval, update interval, decimal precisions, canvas or even chart margins.
 
