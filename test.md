@@ -60,7 +60,7 @@ Once the my-app is created, run the commands in the terminal to install the Fusi
 
     npm install fusioncharts --save
 
-FusionCharts also provides React-component that can be used to add JS charts in our app without any difficulty. To check them out, click [here](https://github.com/fusioncharts/react-fusioncharts-component) 
+FusionCharts also provides React-component that can be used to add JS charts in our app without any difficulty. To check them out, click [here](https://github.com/fusioncharts/react-fusioncharts-component).
 
     npm install react-fusioncharts --save
 
